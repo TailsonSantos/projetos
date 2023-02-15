@@ -91,25 +91,5 @@ p > input{
 
 }
 
-footer{
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.459);
-    height: 250px;
-}
-
-footer > p{
-    color: white;
-    text-align: center;
-    
-}
-
-p > a{
-    position: absolute;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    
-}
-
-
 
 
