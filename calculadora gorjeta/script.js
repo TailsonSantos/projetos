@@ -13,7 +13,10 @@ function calcularpor(n){
 function verificar(){
     if(valor.value.length == 0 || pessoas.value.length == 0 || pessoas.value.length == 0){
         alert(`Os valores não podem ficar vazios`)
-    }else{
+    }else if(Number(valor.value) < 0 || Number(pessoas.value) < 0 || Number(porcem.value) < 0){
+        alert(`Valores não podem ser negativos!`)
+    }    
+    else{
         if(porcem.value > 100 || porcem.value < 0){
             alert(`A Porcentagem deve ser entre 1 a 100%`)
         }else{
