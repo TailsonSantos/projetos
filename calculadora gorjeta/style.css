@@ -1,0 +1,93 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --cor1:#6499EE;
+    --cor2:#1654B8;
+    --cor3:#00296c;
+    --fonte-padrao: 'Anton', sans-serif;
+}
+body{
+    background-color: #00296c56;
+    padding: 5px;
+}
+main{
+    max-width: 800px;
+    min-width: 600px;
+    max-height: 800px;
+    min-height: 400px;  
+    background-color: var(--cor1);
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.247);;   
+}
+section{
+    font-weight: bold;
+    background-color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: -5px;
+    max-height: 500px;
+    min-width: 450px;
+    border: 1px solid black;
+
+}
+header > h1{
+    padding: 10px 0px;
+    color: white;
+    background-color: rgb(10, 40, 211);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+header{
+    box-shadow: 0px 9px 13px 0px rgb(0 0 0 / 41%);
+}
+.entrada{
+    padding: 5px;
+    margin: 10px;
+}
+
+p > input{
+    width: 40px;
+    
+}
+#valor{
+    min-width: 50px;
+}
+#porcem{
+    width: 35px;
+    
+}
+.butt{
+    padding: 5px;
+}
+.entrada > p{
+    padding: 15px;
+    font-weight: bold;
+
+}
+.res{
+    margin-top: 5px;
+    font-weight: bold;
+
+}
+
+
+
+
