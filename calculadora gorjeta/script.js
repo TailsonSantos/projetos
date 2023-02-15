@@ -11,7 +11,7 @@ function calcularpor(n){
     return porcentagem
 }
 function verificar(){
-    if(valor.value.length == 0 || pessoas.value.length == 0 | pessoas.value.length == 0){
+    if(valor.value.length == 0 || pessoas.value.length == 0 || pessoas.value.length == 0){
         alert(`Os valores não podem ficar vazios`)
     }else{
         if(porcem.value > 100 || porcem.value < 0){
