@@ -11,7 +11,7 @@ function calcularpor(n){
     return porcentagem
 }
 function verificar(){
-    if(valor.value.length == 0 || pessoas.value.length == 0 || pessoas.value.length == 0){
+    if(valor.value.length == 0 || pessoas.value.length == 0 || porcem.value.length == 0){
         alert(`Os valores não podem ficar vazios`)
     }else if(Number(valor.value) < 0 || Number(pessoas.value) < 0 || Number(porcem.value) < 0){
         alert(`Valores não podem ser negativos!`)
@@ -23,8 +23,8 @@ function verificar(){
             res.style.border = "1px solid black"
             res.style.backgroundColor = "#6499ee86"
             res.style.borderRadius = "20px"
-            res.innerHTML = `VALOR DA GORJETA DO GARSON:${calcularpor(valor.value)} <br>`
-            res.innerHTML += `O valor a pagar por pessoa é de ${calcularpor(valor)/pessoas.value}$`
+            res.innerHTML = `VALOR DA GORJETA DO GARSON:${calcularpor(valor.value)}$ <br>`
+            res.innerHTML += `O valor a pagar por pessoa é de ${calcularpor(valor.value)/pessoas.value}$`
         }
         
     }
