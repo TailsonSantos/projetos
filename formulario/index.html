@@ -16,7 +16,8 @@
             <p>
                 <label for="inome">Nome:</label>
                 <input class="normal" type="text" name="nome" id="inome" placeholder="Irineu" minlength="3"
-                    maxlength="13" size="13" required>
+                    maxlength="13" size="13" required autocomplete="username">
+                   
             </p>
             <p>
                 <label for="isobrenome">Sobrenome:</label>
@@ -25,15 +26,15 @@
             </p>
             <p>
                 <label for="iempresa">Empresa:</label>
-                <input class="normal" type="text" name="empresa" id="iempresa">
+                <input class="normal" type="text" name="empresa" id="iempresa" required>
             </p>
             <p>
                 <label for="iemail">Email:</label>
-                <input class="normal" type="email" name="email" id="iemail">
+                <input class="normal" type="email" name="email" id="iemail" placeholder="exemplo@hotmail.com" required>
             </p>
             <p>
                 <label for="itelefone">Telefone:</label>
-                <input class="normal" type="tel" name="telefone" id="itelefone" placeholder="(xx)xxxx-xxxx">
+                <input class="normal" type="tel" name="telefone" id="itelefone" placeholder="(xx)xxxx-xxxx" maxlength="13" required>
             </p>
             <p>
                 <label for="isexo">Sexo:</label>
@@ -47,7 +48,6 @@
         </form>
 
     </main>
-
+    <script src="javascript/script.js"></script>
 </body>
-
 </html>

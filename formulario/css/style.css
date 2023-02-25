@@ -67,6 +67,9 @@ input.normal{
     
 }
 
+input.especial{
+    margin: 5px;
+}
 
 input.button{
     height: 30px;
@@ -76,8 +79,12 @@ input.button{
     padding: 5px;
     margin: 5px;
     border: 1px solid rgba(0, 0, 0, 0.329);
+    
 }
 
+::placeholder{
+    color: rgb(202, 193, 172);
+}
 
 input.button:hover{
     background-color: rgba(0, 0, 0, 0.425);
@@ -86,5 +93,7 @@ input.button:hover{
 
 
 
-
+span{
+    display: none;
+}
 
