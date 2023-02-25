@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    background-image: url(../img/como-organizar-rotina.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main{
+
+    max-height: 800px;
+    min-width: 600px;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.205);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: inset -1px 0px 9px 0px rgba(0, 0, 0, 0.589);
+    
+}
+
+label{
+    font-size: 1.5em;
+}
+
+form > p{
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+h1{
+    background-color: #926655dc;
+    color: white;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+
+}
+
+input.normal{
+    height: 23px;
+    font-size: 1.3em;
+    padding-left: 5px;
+    background-color: rgba(0, 0, 0, 0.26);
+    color: white;
+    
+    
+    
+}
+
+
+input.button{
+    height: 30px;
+    background-color: #926655dc;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.329);
+}
+
+
+input.button:hover{
+    background-color: rgba(0, 0, 0, 0.425);
+    transition: .3s;
+}
+
+
+
+
+
