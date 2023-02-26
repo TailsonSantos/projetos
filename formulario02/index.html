@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div id="box">
+        <fieldset>
+            <legend class="especial">Formulario</legend>
+            <form method="get">
+                <div class="inputbox">
+                    <br>
+                    <label for="inome" class="labeluser"><strong>Nome Completo:</strong></label>
+                    <input type="text" name="nome" id="inome" class="inputuser" required>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="iemail" class="labeluser"><strong>Email:</strong></label>
+                    <input type="email" name="email" id="iemail" class="inputuser" required>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="itelefone" class="labeluser"><strong>Telefone:</strong></label>
+                    <input type="tel" name="telefone" id="itelefone" class="inputuser" required>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="idata" ><strong>Data Nascimento:</strong></label>
+                    <input type="date" name="data" id="idata" class="inputuser" class="data" required>
+                </div>
+                <div class="fieldesetsexo">
+                             
+                    <fieldset >
+                        <legend class="sexo">Sexo:</legend>
+                        <label for="masculino"><strong>Masculino:</strong></label>
+                        <input type="radio" name="genero" id="masculino" value="masculino"  checked required>
+                        
+                        <label for="feminino"><strong>Feminino:</strong></label>
+                        <input type="radio" name="genero" id="feminino" value="feminino" required>
+
+                        <label for="outros"><strong>Outros:</strong></label>
+                        <input type="radio" name="genero" id="outros" value="outros" required>
+                    </fieldset>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="icidade" class="labeluser"><strong>Cidade:</strong></label>
+                    <input type="text" name="cidade" id="icidade" class="inputuser" required>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="iestado" class="labeluser"><strong>Estado:</strong></label>
+                    <input type="text" name="estado" id="iestado" class="inputuser" required>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="iendereco" class="labeluser"><strong>Endereço:</strong></label>
+                    <input type="text" name="endereco" id="iendereco" class="inputuser" required>
+                </div>
+                <br>
+                <input type="submit" value="ENVIAR" class="button">
+                
+
+            </form>
+        </fieldset>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+:root{
+  --cor1: #0F1C66;
+  --cor2: #1B32B3;
+  --cor3: #2240E6;
+  --cor4: #626BD1;
+}
+
+
+body{
+    height: 95vh;
+    width: 98vw;
+    background-image: linear-gradient(to right, var(--cor4), var(--cor3));
+    color: white;
+    
+    
+}
+
+#box{
+    position: absolute;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--cor1);
+    min-width: 400px;
+    max-width: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+legend.especial{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid var(--cor4);
+    background-color: var(--cor4);
+    border-radius: 13px;
+}
+
+legend.sexo{
+   
+    padding: 2px;
+    background-color: var(--cor4);
+    border: 1px solid var(--cor4);
+    border-radius: 10px;
+    
+
+}
+
+fieldset{
+    margin-top: 10px;
+    border: 1px solid var(--cor4);
+}
+
+.inputuser{
+    background-color: var(--cor1);
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    outline: none;
+    color: white;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    font-family: sans-serif;  
+
+      
+}
+.fieldesetsexo{
+    min-width: 40%;
+    max-width: 100%;
+}
+
+
+.labeluser{
+    
+}
+.button{
+    width: 100%;
+    padding: 9px;
+    background-image: linear-gradient(to right, var(--cor3), var(--cor4));
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;  
+    
+}
